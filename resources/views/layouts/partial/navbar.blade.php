@@ -17,6 +17,10 @@
     <a class="nav-link {{ Request::is('smk/all') ? 'active' : '' }}" href="{{ url('smk/all') }}">SMK</a>
     </li>
 
+    <li class="nav-item">
+    <a class="nav-link {{ Request::is('murid/all') ? 'active' : '' }}" href="{{ url('murid/all') }}">SISWA</a>
+    </li>
+
       </ul>
     </div>
   </div>

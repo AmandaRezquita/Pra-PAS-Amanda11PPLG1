@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SchoolController;
 use App\Http\Controllers\SmaController;
 use App\Http\Controllers\SmkController;
+use App\Http\Controllers\MuridController;
 
 
 /*
@@ -26,3 +27,8 @@ Route::get('/sma/detail/{sma}', [SmaController::class, 'show']);
 
 Route::get('/smk/all', [SmkController::class, 'index']);
 Route::get('/smk/detail/{smk}', [SmkController::class, 'show']);
+
+Route::get('/murid/all', [MuridController::class, 'index']);
+Route::get('/murid/detail/{murid}', [MuridController::class, 'show']);
+
+
